@@ -60,7 +60,7 @@ def get_selects(s):
 
         _check_token(type, value, last_token)
         if type == 'ID':
-            curr_slice[0] = int(value)-1
+            curr_slice[0] = int(value)
         elif type == 'START':
             curr_slice[1] = int(value)
         elif type == 'END':
